@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form </title>
+  </head>
+  <body>
+  	<form method="POST" action="action.php">
+  		First name: <input type="text" name="lastname">
+  		<br>
+  		Last name: <input type="text" name="lastname">
+  		<br>
+  		Address1: <input type="text" name="address1">
+  		<br>
+  		Address2: <input type="text" name="address">
+  		<br>
+  		Address3: <input type="text" name="address">
+  		Postcode: <input type="number" name="Postcode">
+  		<br>
+  		Email: <input type="Email" name="Email">
+  		Password: <input type="Password" name="Password" minlength="6" required="">
+  		<br>
+  		Birthday: <input type="date" name="Birthday">
+  		<br>
+  		Gender: <br>
+  		<input type="radio" name="gender" value="Male">Male<br>
+  		<input type="radio" name="gender" value="Female">Female<br>
+  		<input type="radio" name="gender" value="Other">Other
+<br>
+		Hobbies:<br>
+		<input type="checkbox" name="Reading" value="Reading">Reading<br>
+		<input type="checkbox" name="Shopping" value="Shopping">Shopping<br>
+		<input type="checkbox" name="Sport" value="Sport">Sport<br>
+  		
+  		Cars: <br>
+  		<select name="Cars">
+  		<option value="Proton">Proton</option>	
+  		<option value="Perodua">Perodua</option>
+  		<option value="Honda">Honda</option>
+  		</select>
+  		<br>
+  		<br>
+  		<input type="file" name="file">
+  		<br>
+  		Your comment:<textarea name="comment"></textarea>
+  		<br>
+  		<input type="submit" name="submit" value="submit">
+  		<input type="reset" name="reset">
+  		<br>
+  	</form>
+  </body>
+</html>
+
+
+***Notes
+1.If u have any specific item that is compulsory to be filled you can add “required”
+Eg. First name: <input type="text" name="firstname" required >
+Email: <input type="Email" name="Email" required >
+
+2.If u want to change the name of a button, add value to it
+Eg. <input type="submit" name="submit" value="Register!">
+
+Hope this will helps. Love all of u
